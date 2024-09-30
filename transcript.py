@@ -9,7 +9,7 @@ import subprocess
 
 # Load environment variables
 load_dotenv()
-
+ 
 # Initialize OpenAI client for Groq API
 groq = OpenAI(
     api_key=os.environ["GROQ_API_KEY"],
